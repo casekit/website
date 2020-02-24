@@ -1,0 +1,18 @@
+---
+layout: principles
+subtitle: 'Computer says "Yes"'
+---
+
+Too often, software that is meant to be helpful can end up being obstructive. Who hasn’t experienced the frustration of filling out a form with information that /you/ know is correct, only to be blocked from continuing because the computer thinks otherwise?
+
+When this happens we have two choices: we either mangle the real information until it’s in a form the software can recognise, or we give up and do something else.
+
+We do this so often we take it for granted. For how many years did you have to copy and paste your mobile number into both the “home” and “mobile” fields - because having a landline, for some reason, was mandatory?
+
+How many times do those outside the gender binary have to force themselves into it regardless, just to be able to hit “Next”?
+
+We know that people who use Case Kit will encounter situations that we did not anticipate when designing it. So we strive to make our designs flexible enough to support situations we did not anticipate.
+
+This means that, as much as possible, we’ll never stop you from entering data that we don’t think looks “right”.
+
+Of course, data validation is important - so if you’re entering something that seems wrong to us - say, a date of birth in the future - we’ll let you know. But if you know we’re wrong, and you’re right, you’ll be able to override the suggestion - and help us improve our definition of what “right” looks like.

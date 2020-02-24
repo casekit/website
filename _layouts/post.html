@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="page-title dark">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-8 offset-md-4">
+    <h1>Blog</h1>
+  </div>
+  </div>
+  </div>
+</div>
+
+<div id="main-content" class="container">
+
+  <div class="row">
+    <div class="col-md-8 offset-md-4">
+      <h2>{{ page.subtitle }}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <ul class="sidebar-nav">
+        {% for post in site.posts %}
+        <li><a href="{{ post.url}}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="col-md-8">
+      {{ content }}
+    </div>
+  </div>
+</div>

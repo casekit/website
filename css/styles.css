@@ -1,341 +1,393 @@
-
 body {
-    font-family: 'Work Sans',Helvetica,Arial,sans-serif; 
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    background-color: #FFFFFF;
-    min-width: 320px;
+  font-family: 'Work Sans',Helvetica,Arial,sans-serif; 
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: #FFFFFF;
+  min-width: 320px;
 }
 
 
 h1, h2, h3, p {
-    margin-block-start: 0px;
-    margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 h1, h2, h3, input, a {
-    color: #2D2F33;
-    font-weight: 500;
+  color: #2D2F33;
+  font-weight: 500;
 }
 
 p {
-    color: #565961;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 16px;
+  color: #565961;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
 }
 
 a { 
-    color: #0D54A2;
-    transition: .3s background-color;
+  color: #0D54A2;
+  transition: .3s background-color;
 }
 
 a:hover {
-    color: #093A71;
-    background-color: #DDECF9;
-    transition-duration: .5s;
+  color: #093A71;
+  background-color: #DDECF9;
+  transition-duration: .5s;
 }
 
 h1 { 
-	font-size: 44px;
-    line-height: 54px;
-    margin-bottom: 36px;
+  font-size: 44px;
+  line-height: 54px;
+  margin-bottom: 36px;
 }
 
 h2 { 
-    font-size: 24px;
-    line-height: 36px;
-    margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 24px;
 }
 
 h3 { 
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 16px;
 }
 
 
 header {
-    background-color: #FFFFFF;
-	height: 60px;
+  background-color: #FFFFFF;
+  height: 80px;
 
 }
 
 header img {
-    display: block;
-    height: 40px;
-    margin: 15px auto 0px auto;
+  display: block;
+  height: 40px;
+  margin: 15px auto 0px auto;
 }
 
 section {
-    padding-top: 100px;
-    padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.page-title {
+  padding: 10px 0;
+  color: white;
+  background-color: #0E3967;
+  /* background-image: url("images/links.svg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100px; */
+  /* background-position: 25% 20%; */
+  display: block;
+  box-sizing: border-box;
+  /* height: 100px; */
+  /* min-height: 100px; */
+  /* max-height: 550px; */
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.page-title h1, .page-title h2 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.sidebar-nav {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-nav li {
+  border-bottom: 1px solid #DDECF9;
+  padding: 5px 0;
+}
+
+.sidebar-nav li a, .sidebar-nav li a:hover {
+  text-decoration: none;
+  padding: 5px 0;
 }
 
 a.button {
-    display: inline-block;
-    font-size: 16px;
-    background-color: #0D54A2;
-    border: none;
-    color: white;
-    padding: 14px 24px 15px 24px;
-    text-decoration: none;
-    cursor: pointer;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    transition: .8s background-color;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #0D54A2;
+  border: none;
+  color: white;
+  padding: 14px 24px 15px 24px;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  transition: .8s background-color;
 }
 
 a.button:hover {
-    background-color: #043873;
-    transition-duration: .8s;
+  background-color: #043873;
+  transition-duration: .8s;
 }
 
 a.button:focus {
-    outline: 6px solid #DDECF9;
+  outline: 6px solid #DDECF9;
 }
 
 .dark h1, .dark h2, .dark h3, .dark p, .dark a {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .sectioncontent {
-    width: 880px;
-    max-width: 90%;
-    margin: 0 auto;
-    position: relative;
+  width: 880px;
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#main-nav {
+  text-align: center;
+}
+
+#main-content {
+  min-height: calc(100vh - 500px);
+}
+
+.nav-item, .nav-item:hover {
+  line-height: 24px;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
 }
 
 #topbanner {
-	background-color: #0E3967;
-    background-image: url("images/links.svg");
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: 25% 20%;
-    display: block;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    box-sizing: border-box;
-    height: 80vh;
-    min-height: 300px;
-    max-height: 550px;
-    position: relative;
+  background-color: #0E3967;
+  background-image: url("images/links.svg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: 25% 20%;
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  height: 80vh;
+  min-height: 300px;
+  max-height: 550px;
+  position: relative;
 }
 
 #supportingpeople {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
 }
 
 #supportingpeople .sectioncontent {
-    width: 42%;
-    padding-left: calc(25% + 110px);
-    margin: 0px;
+  width: 42%;
+  padding-left: calc(25% + 110px);
+  margin: 0px;
 }
 
 #topbanner h2 {
-    font-size: 24px;
-    line-height: 36px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 #triangle {
-    width: 0px;
-    height: 0px;
-    border-style: solid;
-    margin: auto;
-    border-width: 40px 48px 0 48px;
-    border-color: #0E3967 transparent transparent transparent;
-    line-height: 0px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  margin: auto;
+  border-width: 40px 48px 0 48px;
+  border-color: #0E3967 transparent transparent transparent;
+  line-height: 0px;
 }
 
 #hello .sectioncontent {
-    display: block;
-    position: relative;
+  display: block;
+  position: relative;
 }
 
 #ck {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #ck img {
-    margin-left: 20px;
-    width: 200px;
+  margin-left: 20px;
+  width: 200px;
 }
 
 #weare {
-    margin-left: 280px;
+  margin-left: 280px;
 }
 
 #letstalk {
-    background-color: #F3F4F9;
-    background-image: url("images/message.svg");
-    background-repeat: no-repeat;
-    background-size: 400px;
-    background-position: 100% -100px;
+  background-color: #F3F4F9;
+  background-image: url("images/message.svg");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: 100% -100px;
 }
 
 #letstalk p { 
-    width: 85%;
+  width: 85%;
 }
 
 #features img {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .third, .twothirds {
-    display: inline-block;
+  display: inline-block;
 }
 
 .third {
-    width: 30%;
-    vertical-align: top;
+  width: 30%;
+  vertical-align: top;
 }
 
 .third img {
-    height: 60px;
+  height: 60px;
 }
 
 #one, #two { 
-    margin-right: 4%; 
+  margin-right: 4%; 
 }
 
 footer {
-    background-color: #0E3967;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background-color: #0E3967;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer img {
-    display: block;
-    width: 180px;
-    clear: right;
-    margin-top: 140px;
-    margin-bottom: 20px;
+  display: block;
+  width: 180px;
+  clear: right;
+  margin-top: 140px;
+  margin-bottom: 20px;
 }
 
 footer p {
-    font-size: 14px;
-    margin-bottom: 40px;
+  font-size: 14px;
+  margin-bottom: 40px;
 }
 
 
 
 @media only screen and (max-width: 900px) {
-    h1 {
-        font-size: 24px;
-        line-height: 36px;
-        margin-bottom: 24px;
-    }
+  h1 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
 
-    h2 { 
-        font-size: 24px;
-        line-height: 36px;
-        margin-bottom: 24px;
-    }
+  h2 { 
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
 
-    h3, #topbanner h2 { 
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 16px;
-    }
+  h3, #topbanner h2 { 
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
 
-    p {
-        font-size: 14px;
-        line-height: 20px;
-    }
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 
-    section {
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
+  section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
 
-    #topbanner {
-        background-size: 80px;
-        background-position: 20% 20%;
-        height: 80vh;
-        min-height: 300px;
-        max-height: 400px;
-    }
+  #topbanner {
+    background-size: 80px;
+    background-position: 20% 20%;
+    height: 80vh;
+    min-height: 300px;
+    max-height: 400px;
+  }
 
-    #supportingpeople .sectioncontent {
-        width: 48%;
-        padding-left: calc(25% + 70px);
-    }
+  #supportingpeople .sectioncontent {
+    width: 48%;
+    padding-left: calc(25% + 70px);
+  }
 
-    #triangle {
+  #triangle {
     border-width: 25px 33px 0 33px;
-    }
+  }
 
-    #ck {
-        top: 0%;
-        transform: translateY(-0%);
-    }
+  #ck {
+    top: 0%;
+    transform: translateY(-0%);
+  }
 
-    #ck img {
-        margin-left: 0px;
-        width: 40px;
-    }
+  #ck img {
+    margin-left: 0px;
+    width: 40px;
+  }
 
-    #weare {
-        margin-left: 60px;
-    }
+  #weare {
+    margin-left: 60px;
+  }
 
-    #letstalk {
-        background-size: 300px;
-    }
+  #letstalk {
+    background-size: 300px;
+  }
 
-    #letstalk p { 
-        width: 100%;
-    }
+  #letstalk p { 
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-    .third {
-        width: 100%;
-    }
+  .third {
+    width: 100%;
+  }
 
-    .third img {
-        display: inline-block;
-        width: 60px;
-    }
+  .third img {
+    display: inline-block;
+    width: 60px;
+  }
 
-    .text {
-        margin-left: 15px;
-        width: calc(100% - 90px);
-        display: inline-block;
-        vertical-align: top;
-        margin-bottom: 24px;
-    }
+  .text {
+    margin-left: 15px;
+    width: calc(100% - 90px);
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 24px;
+  }
 
-    .text h3 {
-        margin-bottom: 6px;
-    }
+  .text h3 {
+    margin-bottom: 6px;
+  }
 
-    #one, #two { 
-        margin-right: 4%; 
-    }
+  #one, #two { 
+    margin-right: 4%; 
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    #topbanner {
-        background-size: 65px;
-        background-position: 10% 27%;
-    }
+  #topbanner {
+    background-size: 65px;
+    background-position: 10% 27%;
+  }
 
-    #supportingpeople .sectioncontent {
-        width: 58%;
-        padding-left: calc(25% + 35px);
-    }
+  #supportingpeople .sectioncontent {
+    width: 58%;
+    padding-left: calc(25% + 35px);
+  }
 
-    #triangle {
+  #triangle {
     border-width: 25px 33px 0 33px;
-    }
+  }
 }
