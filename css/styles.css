@@ -478,6 +478,8 @@ footer p {
 
     #screens {
         margin-top: 60px;
+        overflow: scroll;
+        height: 400px;
     }
 
     #screenshots {
@@ -489,14 +491,14 @@ footer p {
 
     img#desktopframe {
         left: 210px;
-        height: 380px;
+        height: 375px;
         width: auto;
         margin: 0px;
     }
 
     .desktopslide {
         position: absolute;
-        bottom: 0;
+        top: 20px;
         left: 210px;
         height: 355px;
         width: auto;
@@ -622,6 +624,10 @@ footer p {
         height: 155px;
     }
 
+    #screens {
+        height: 260px;
+    }
+
     img#desktopframe {
         left: 145px;
         height: 240px;
@@ -630,6 +636,7 @@ footer p {
     .desktopslide {
         left: 145px;
         height: 227px;
+        top: 13px;
     }
 
     img#mobileframe {
