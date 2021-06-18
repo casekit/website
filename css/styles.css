@@ -317,21 +317,29 @@ img#mobilebackground {
 footer {
     background-color: #05326C;
     padding-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 90px;
 }
 
-footer img {
+#casekitfooter {
     width: 180px;
-    clear: right;
     margin-top: 140px;
     margin-bottom: 20px;
+    display: inline-block;
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 11px;
+    line-height: 14px;
     text-align: left;
-    margin-bottom: 40px;
     color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#coopmember {
+    width: 120px;    
+    margin-top: 130px;
+    float: right;
+    display: inline-block;
 }
 
 /*MEDIA QUERIES */
@@ -574,6 +582,10 @@ footer p {
         float: none;
         display: inline-block;
     }
+
+    #casekitfooter {
+        margin-bottom: 60px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -663,19 +675,23 @@ footer p {
     }
 
     footer {
-        padding-bottom: 40px;
+        padding-bottom: 50px;
     }
 
     footer img {
-        width: 140px;
-        margin-top: 60px;
-        margin-bottom: 10px;
+        width: 100px;
     }
 
-    footer p {
-        font-size: 12px;
-        margin-bottom: 0px;
+    #casekitfooter {
+        width: 140px;
+        margin-top: 80px;
     }
+
+    #coopmember {
+        width: 90px;    
+        margin-top: 70px;
+    }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -685,4 +701,12 @@ footer p {
 
     #loginbutton {
         margin-right: 15px;
+    }
+
+    #casekitfooter {
+        width: 120px;
+    }
+
+    #coopmember {
+        width: 70px;    
     }
